@@ -18,6 +18,6 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this,RegisterationActivity.class));
             }
 
-        }, 1000L);
+        }, 2000L);
     }
 }
