@@ -9,7 +9,8 @@
     </style>
     <style name="BasicButton">
         <item name="android:background">@color/basicColor</item>
-
     </style>
-
+    <style name="basicSize">
+        <item name="android:textSize">24sp</item>
+    </style>
 </resources>

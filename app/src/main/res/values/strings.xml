@@ -2,7 +2,10 @@
     <string name="app_name">Hours</string>
     <string name="CreateAccount">Create account</string>
     <string name="Login">Log in</string>
+    <string name="Register">Register</string>
+    <string name="UserNamePlaceholder">User Name</string>
     <string name="EmailPlaceholder">E_Mail</string>
     <string name="PasswordPlaceholder">Password</string>
+    <string name="ConfirmPasswordPlaceholder">Confirm Password</string>
     <string name="ForgetPassword">Forget Password ?</string>
 </resources>
