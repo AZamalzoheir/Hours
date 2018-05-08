@@ -18,7 +18,12 @@
         </activity>
         <activity android:name=".RegisterationActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterNewUserActivity"></activity>
+        <activity
+            android:name=".RegisterNewUserActivity"
+            android:label="@string/Register" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".HomePageActivity"></activity>
     </application>
 
 </manifest>

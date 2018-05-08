@@ -13,6 +13,19 @@
                       <PersistentState>
                         <option name="children">
                           <map>
+                            <entry key="actionbar">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-0٥.png" />
+                                      <entry key="outputName" value="ic_360_degree" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
                             <entry key="launcherLegacy">
                               <value>
                                 <PersistentState>
@@ -56,8 +69,9 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-0١.png" />
-                                      <entry key="outputName" value="logo" />
+                                      <entry key="backgroundColor" value="333435" />
+                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-0٥.png" />
+                                      <entry key="outputName" value="icon360degree" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -67,7 +81,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>

@@ -8,7 +8,8 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/login_textView"
+        android:id="@+id/login_tv"
+        style="@style/basicSize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -19,14 +20,13 @@
         android:layout_marginTop="8dp"
         android:text="@string/Login"
         android:textColor="@color/basicColor"
-        style="@style/basicSize"
-        app:layout_constraintBottom_toTopOf="@+id/mail_edittext"
+        app:layout_constraintBottom_toTopOf="@+id/mail_loginpage_et"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login_login_page_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -37,13 +37,13 @@
         android:background="@color/basicColor"
         android:text="@string/Login"
         style="@style/basicSize"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/forget_password_loginpage_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/mail_edittext"
+        android:id="@+id/mail_loginpage_et"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
@@ -57,13 +57,13 @@
         android:inputType="textEmailAddress"
         android:textColorHint="@color/basicColor"
         android:hint="@string/EmailPlaceholder"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/password_loginpage_et"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password_loginpage_et"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -77,13 +77,13 @@
         android:hint="@string/PasswordPlaceholder"
         android:textColorHint="@color/basicColor"
         style="@style/basicSize"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/login_login_page_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/forget_password_loginpage_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="152dp"
@@ -94,12 +94,12 @@
         android:text="@string/ForgetPassword"
         style="@style/basicSize"
         android:textColor="@color/basicColor"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/craeteaccount_loginpage_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/craeteaccount_loginpage_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"

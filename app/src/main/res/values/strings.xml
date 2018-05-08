@@ -8,4 +8,10 @@
     <string name="PasswordPlaceholder">Password</string>
     <string name="ConfirmPasswordPlaceholder">Confirm Password</string>
     <string name="ForgetPassword">Forget Password ?</string>
+    <string name="ResetPassword">Reset Password</string>
+    <string name="Find">Find</string>
+    <string name="Reset">Reset</string>
+    <string name="Video">Video</string>
+    <string name="EgyptTouristMap">Egypt tourist map</string>
+    <string name="TripsNeed">Trips for persons with special needs</string>
 </resources>
