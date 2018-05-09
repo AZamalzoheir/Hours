@@ -10,6 +10,7 @@ import android.widget.Button;
 public class HomePageActivity extends AppCompatActivity {
     Button showVideoButton;
     Button tripSpicialNeedButton;
+    Button showEgyptTouristButton;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.basicmenu,menu);
@@ -22,6 +23,7 @@ public class HomePageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         showVideoButton=(Button) findViewById(R.id.video_btn);
         tripSpicialNeedButton=(Button) findViewById(R.id.trips_need_btn);
+        showEgyptTouristButton=(Button) findViewById(R.id.egypt_activity_btn);
         showVideoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +34,12 @@ public class HomePageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomePageActivity.this, TripsSpicislNeedActivity.class));
+            }
+        });
+        showEgyptTouristButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomePageActivity.this, EgyptionTouristActivity.class));
             }
         });
     }

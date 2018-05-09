@@ -22,10 +22,15 @@
     <string name="Details">Details</string>
     <string name="Price">Price</string>
     <string name="For">For</string>
-    <string name="NumberOfPersons">Number Of Persons</string>
+    <string name="NumberOfPersons">Number Of Persons   </string>
     <string name="Book">Book</string>
     <string name="CancelTrip">Cancel Trip</string>
     <string name="PriceQuantity">20$</string>
     <string name="PersonsQuantity">3 Persons</string>
-
+    <string name="LeisureTourism">Leisure Tourism</string>
+    <string name="TherapeuticTourism">Therapeutic Tourism</string>
+    <string name="JndoorTourism">Jndoor Tourism</string>
+    <string name="OuoonMosa">Ouoon Mosa</string>
+    <string name="SiniaWells">Sinia Wells</string>
+    <string name="ShowOnMap">Show on Map</string>
 </resources>

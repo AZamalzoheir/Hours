@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePageActivity"
-    android:background="@drawable/background2">
+    android:background="@drawable/background2"
+    tools:context=".EgyptionTouristActivity">
 
     <Button
-        android:id="@+id/video_btn"
+        android:id="@+id/lesure_tourism_btn"
         style="@style/basicSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="28dp"
         android:background="@color/basicColor"
-        android:text="@string/Video"
+        android:text="@string/LeisureTourism"
         app:layout_constraintBottom_toTopOf="@+id/trips_need_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -38,7 +38,7 @@
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
-        android:text="@string/TripsNeed"
+        android:text="@string/LeisureTourism"
         app:layout_constraintBottom_toTopOf="@+id/egypt_activity_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -55,7 +55,7 @@
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
-        android:text="@string/EgyptTouristMap"
+        android:text="@string/TherapeuticTourism"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

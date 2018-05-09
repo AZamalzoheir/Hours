@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/background3"
+        android:background="@drawable/bacground4"
         android:text="@string/Pyramids"
         style="@style/basicSize"
         android:textColor="@color/basicColor" />
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/background3"
+        android:background="@drawable/background5"
         android:text="@string/Giza"
         style="@style/basicSize"
         android:textColor="@color/basicColor" />
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/background3"
+        android:background="@drawable/background6"
         android:text="@string/Aswan"
         style="@style/basicSize"
         android:textColor="@color/basicColor" />

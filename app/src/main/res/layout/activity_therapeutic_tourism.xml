@@ -4,28 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePageActivity"
+    tools:context=".TherapeuticTourismActivity"
     android:background="@drawable/background2">
 
+    <TextView
+        android:id="@+id/therautic_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TherapeuticTourism"
+        android:textColor="@color/basicColor"
+        style="@style/basicSize"
+        app:layout_constraintBottom_toTopOf="@+id/ouoon_mousa_btn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+
     <Button
-        android:id="@+id/video_btn"
+        android:id="@+id/ouoon_mousa_btn1"
         style="@style/basicSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="40dp"
         android:layout_marginEnd="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="28dp"
         android:background="@color/basicColor"
-        android:text="@string/Video"
+        android:text="@string/OuoonMosa"
         app:layout_constraintBottom_toTopOf="@+id/trips_need_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.781" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/trips_need_btn"
@@ -38,7 +55,7 @@
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
-        android:text="@string/TripsNeed"
+        android:text="@string/SiniaWells"
         app:layout_constraintBottom_toTopOf="@+id/egypt_activity_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -55,9 +72,10 @@
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
-        android:text="@string/EgyptTouristMap"
+        android:text="@string/OuoonMosa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

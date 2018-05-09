@@ -28,7 +28,10 @@
         <activity android:name=".PlayVideoActivity" />
         <activity android:name=".LuxorDescripionActivity" />
         <activity android:name=".BookTripsActivity" />
-        <activity android:name=".TripsSpicislNeedActivity"></activity>
+        <activity android:name=".TripsSpicislNeedActivity" />
+        <activity android:name=".EgyptionTouristActivity" />
+        <activity android:name=".TherapeuticTourismActivity" />
+        <activity android:name=".EgyptTouristMapActivity"></activity>
     </application>
 
 </manifest>
