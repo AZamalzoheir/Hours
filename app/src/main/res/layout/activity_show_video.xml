@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".ShowVideoActivity">
+    <Button
+        android:id="@+id/luxor_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background2"
+        android:text="@string/Luxor"
+        android:textColor="@color/basicColor"
+        style="@style/basicSize"/>
+
+    <Button
+        android:id="@+id/pyramids_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background2"
+        android:text="@string/Pyramids"
+        style="@style/basicSize"
+        android:textColor="@color/basicColor" />
+
+    <Button
+        android:id="@+id/Giza_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background2"
+        android:text="@string/Giza"
+        style="@style/basicSize"
+        android:textColor="@color/basicColor" />
+
+    <Button
+        android:id="@+id/aswan_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background2"
+        android:text="@string/Aswan"
+        style="@style/basicSize"
+        android:textColor="@color/basicColor" />
+</LinearLayout>

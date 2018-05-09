@@ -23,7 +23,12 @@
             android:label="@string/Register" />
         <activity android:name=".ForgetPasswordActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".HomePageActivity"></activity>
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".ShowVideoActivity" />
+        <activity android:name=".PlayVideoActivity" />
+        <activity android:name=".LuxorDescripionActivity" />
+        <activity android:name=".BookTripsActivity" />
+        <activity android:name=".TripsSpicislNeedActivity"></activity>
     </application>
 
 </manifest>

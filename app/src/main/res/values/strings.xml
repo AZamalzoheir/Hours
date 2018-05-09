@@ -14,4 +14,18 @@
     <string name="Video">Video</string>
     <string name="EgyptTouristMap">Egypt tourist map</string>
     <string name="TripsNeed">Trips for persons with special needs</string>
+    <string name="Luxor">Luxor</string>
+    <string name="Pyramids">Pyramids</string>
+    <string name="Giza">Giza</string>
+    <string name="Aswan">Aswan</string>
+    <string name="Destination">Destination</string>
+    <string name="Details">Details</string>
+    <string name="Price">Price</string>
+    <string name="For">For</string>
+    <string name="NumberOfPersons">Number Of Persons</string>
+    <string name="Book">Book</string>
+    <string name="CancelTrip">Cancel Trip</string>
+    <string name="PriceQuantity">20$</string>
+    <string name="PersonsQuantity">3 Persons</string>
+
 </resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".BookTripsActivity">
+
+    <TableLayout
+        android:id="@+id/descripe_book_table"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/borderbutton"
+        android:divider="@color/basicColor"
+        app:layout_constraintBottom_toTopOf="@+id/book_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879">
+
+        <TableRow
+            android:id="@+id/row_book_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderbutton">
+
+            <TextView
+                android:id="@+id/description_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Destination"
+                android:textColor="@color/basicColor" />
+
+            <TextView
+                android:id="@+id/luxor_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Luxor"
+                android:textColor="@color/basicColor" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borderbutton">
+
+            <TextView
+                android:id="@+id/detialds_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/Details"
+                android:textColor="@color/basicColor" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borderbutton">
+
+            <TextView
+                android:id="@+id/price_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Price"
+                android:textColor="@color/basicColor" />
+
+            <TextView
+                android:id="@+id/price_value_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PriceQuantity"
+                android:textColor="@color/basicColor" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borderbutton">
+
+            <TextView
+                android:id="@+id/for_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/For"
+                android:textColor="@color/basicColor" />
+
+            <TextView
+                android:id="@+id/day_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/For"
+                android:textColor="@color/basicColor" />
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borderbutton">
+
+            <TextView
+                android:id="@+id/number_of_personal_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="@string/NumberOfPersons"
+                android:textColor="@color/basicColor" />
+
+            <TextView
+                android:id="@+id/persons_book_tv"
+                style="@style/smallSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PersonsQuantity"
+                android:textColor="@color/basicColor" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/book_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/circle_button"
+        android:text="@string/Book"
+        app:layout_constraintBottom_toTopOf="@+id/cancel_trip_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_trip_btn"
+        style="@style/smallSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/borderbutton"
+        android:text="@string/CancelTrip"
+        android:textColor="@color/basicColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
