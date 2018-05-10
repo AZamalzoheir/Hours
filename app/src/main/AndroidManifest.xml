@@ -32,7 +32,8 @@
         <activity android:name=".EgyptionTouristActivity" />
         <activity android:name=".TherapeuticTourismActivity" />
         <activity android:name=".EgyptTouristMapActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MapActivity"></activity>
     </application>
 
 </manifest>
