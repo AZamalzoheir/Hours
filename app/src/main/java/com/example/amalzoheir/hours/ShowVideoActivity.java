@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class ShowVideoActivity extends AppCompatActivity {
+    Button showVideoPlay;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.basicmenu,menu);
@@ -17,6 +18,13 @@ public class ShowVideoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_video);
+        showVideoPlay=(Button)findViewById(R.id.luxor_video_btn);
+        showVideoPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ShowVideoActivity.this, PlayVideoActivity.class));
+            }
+        });
 
     }
 }

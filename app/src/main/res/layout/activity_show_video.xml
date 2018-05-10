@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".ShowVideoActivity">
     <Button
-        android:id="@+id/luxor_btn"
+        android:id="@+id/luxor_video_btn"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -18,7 +18,7 @@
         style="@style/basicSize"/>
 
     <Button
-        android:id="@+id/pyramids_btn"
+        android:id="@+id/pyramids_video_btn"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -28,7 +28,7 @@
         android:textColor="@color/basicColor" />
 
     <Button
-        android:id="@+id/Giza_btn"
+        android:id="@+id/Giza_video_btn"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -38,7 +38,7 @@
         android:textColor="@color/basicColor" />
 
     <Button
-        android:id="@+id/aswan_btn"
+        android:id="@+id/aswan_video_btn"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"

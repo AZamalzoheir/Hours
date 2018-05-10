@@ -39,13 +39,13 @@
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
         android:text="@string/OuoonMosa"
-        app:layout_constraintBottom_toTopOf="@+id/trips_need_btn"
+        app:layout_constraintBottom_toTopOf="@+id/sinia_wells_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/trips_need_btn"
+        android:id="@+id/sinia_wells_btn"
         style="@style/basicSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,13 +56,13 @@
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
         android:text="@string/SiniaWells"
-        app:layout_constraintBottom_toTopOf="@+id/egypt_activity_btn"
+        app:layout_constraintBottom_toTopOf="@+id/ouoon_mousa_btn2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/egypt_activity_btn"
+        android:id="@+id/ouoon_mousa_btn2"
         style="@style/basicSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

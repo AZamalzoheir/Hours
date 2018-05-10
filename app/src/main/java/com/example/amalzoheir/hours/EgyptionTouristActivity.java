@@ -20,14 +20,7 @@ public class EgyptionTouristActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_egyption_tourist);
-        showTherapeuticTourismButton=(Button) findViewById(R.id.trips_need_btn);
-        showEgyptMapButton=(Button) findViewById(R.id.book_btn);
-        showEgyptMapButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(EgyptionTouristActivity.this,EgyptTouristMapActivity.class));
-            }
-        });
+        showTherapeuticTourismButton=(Button) findViewById(R.id.therappeutic_tourism_btn);
         showTherapeuticTourismButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

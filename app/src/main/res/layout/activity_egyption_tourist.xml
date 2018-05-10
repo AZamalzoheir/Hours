@@ -20,7 +20,7 @@
         android:layout_marginTop="28dp"
         android:background="@color/basicColor"
         android:text="@string/LeisureTourism"
-        app:layout_constraintBottom_toTopOf="@+id/trips_need_btn"
+        app:layout_constraintBottom_toTopOf="@+id/therappeutic_tourism_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.781" />
 
     <Button
-        android:id="@+id/trips_need_btn"
+        android:id="@+id/therappeutic_tourism_btn"
         style="@style/basicSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,14 +38,14 @@
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
-        android:text="@string/LeisureTourism"
-        app:layout_constraintBottom_toTopOf="@+id/egypt_activity_btn"
+        android:text="@string/TherapeuticTourism"
+        app:layout_constraintBottom_toTopOf="@+id/jndoor_tourism_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/egypt_activity_btn"
+        android:id="@+id/jndoor_tourism_btn"
         style="@style/basicSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
         android:layout_marginRight="50dp"
         android:layout_marginStart="50dp"
         android:background="@color/basicColor"
-        android:text="@string/TherapeuticTourism"
+        android:text="@string/JndoorTourism"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
