@@ -8,20 +8,20 @@ import android.widget.VideoView;
 import com.gjiazhe.panoramaimageview.GyroscopeObserver;
 import com.gjiazhe.panoramaimageview.PanoramaImageView;
 
-public class PlayVideoActivity extends AppCompatActivity {
-    //VideoView showVideoView;
-    private GyroscopeObserver gyroscopeObserver;
+public class AswanVideoActivity extends AppCompatActivity {
+   // VideoView showAswanVideoView;
+   private GyroscopeObserver gyroscopeObserver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play_video);
-      //  showVideoView=(VideoView)findViewById(R.id.view_videoView);
-        String path ="android.resource://"+getPackageName()+"/"+R.raw.view;//"res/raw/view.mp4" ;
-        //showVideoView.setVideoURI(Uri.parse(path));
-        //showVideoView.start();
+        setContentView(R.layout.activity_aswan_video);
+        //showAswanVideoView=(VideoView)findViewById(R.id.viewaswan_videoView);
+        //String path ="android.resource://"+getPackageName()+"/"+R.raw.view;//"res/raw/view.mp4" ;
+        //showAswanVideoView.setVideoURI(Uri.parse(path));
+        //showAswanVideoView.start();
         gyroscopeObserver=new GyroscopeObserver();
         gyroscopeObserver.setMaxRotateRadian(Math.PI/9);
-        PanoramaImageView panoramaImageViewLuxor=(PanoramaImageView)findViewById(R.id.luxor_panoramaimage);
+        PanoramaImageView panoramaImageViewLuxor=(PanoramaImageView)findViewById(R.id.aswan_panoramaimage);
         panoramaImageViewLuxor.setGyroscopeObserver(gyroscopeObserver);
 
     }

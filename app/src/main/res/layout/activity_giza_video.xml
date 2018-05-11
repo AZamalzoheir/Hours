@@ -4,16 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlayVideoActivity"
-    android:background="@drawable/background5">
-
-
+    tools:context=".GizaVideoActivity">
     <com.gjiazhe.panoramaimageview.PanoramaImageView
-        android:id="@+id/luxor_panoramaimage"
+        android:id="@+id/giza_panoramaimage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/pyramid"
+        android:src="@drawable/background5"
         app:piv_enablePanoramaMode="true"
         app:piv_invertScrollDirection="true"
-        />
+        />>
 </android.support.constraint.ConstraintLayout>
