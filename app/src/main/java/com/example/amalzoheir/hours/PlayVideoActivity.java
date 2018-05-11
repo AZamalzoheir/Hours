@@ -7,6 +7,7 @@ import android.widget.VideoView;
 
 public class PlayVideoActivity extends AppCompatActivity {
     VideoView showVideoView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
