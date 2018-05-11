@@ -9,6 +9,9 @@ import android.widget.Button;
 
 public class TripsSpicislNeedActivity extends AppCompatActivity {
     Button showCityDescryptionButton;
+    Button showPyramidDescryptionButton;
+    Button showGizaDescryptionButton;
+    Button showAswanDescryptionButton;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.basicmenu,menu);
@@ -19,7 +22,28 @@ public class TripsSpicislNeedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trips_spicisl_need);
         showCityDescryptionButton=(Button) findViewById(R.id.luxor_needs_btn);
+        showPyramidDescryptionButton=(Button) findViewById(R.id.pyramids_needs_btn);
+        showGizaDescryptionButton=(Button) findViewById(R.id.Giza_needs_btn);
+        showAswanDescryptionButton=(Button) findViewById(R.id.aswan_needs_btn);
         showCityDescryptionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+            }
+        });
+        showPyramidDescryptionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+            }
+        });
+        showGizaDescryptionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+            }
+        });
+        showAswanDescryptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));

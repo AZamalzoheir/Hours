@@ -4,5 +4,5 @@
     <color name="colorPrimaryHome">#FFA000</color>
     <color name="colorPrimaryDark">#FF6F00</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="basicColor">#FFC400</color>
+    <color name="basicColor">#ffff00</color>
 </resources>

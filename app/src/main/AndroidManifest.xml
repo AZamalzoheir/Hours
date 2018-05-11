@@ -58,7 +58,8 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".PyramidsVideoActivity" />
         <activity android:name=".GizaVideoActivity" />
-        <activity android:name=".AswanVideoActivity"></activity>
+        <activity android:name=".AswanVideoActivity" />
+        <activity android:name=".AswanDetialsActivity"></activity>
     </application>
 
 </manifest>
