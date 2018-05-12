@@ -37,7 +37,7 @@
                 style="@style/basicSize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:text="@string/Destination"
                 android:textColor="@color/basicColor" />
 
@@ -47,6 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Luxor"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
         </TableRow>
 
@@ -58,6 +59,7 @@
             <TextView
                 android:id="@+id/detialds_tv"
                 style="@style/basicSize"
+                android:padding="@dimen/basic_padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/basic_padding"
@@ -76,7 +78,7 @@
                 style="@style/basicSize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:text="@string/Price"
                 android:textColor="@color/basicColor" />
 
@@ -86,6 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/PriceQuantity"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
 
         </TableRow>
@@ -100,7 +103,7 @@
                 style="@style/basicSize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:text="@string/For"
                 android:textColor="@color/basicColor" />
 
@@ -110,6 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/For"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
 
         </TableRow>
@@ -124,7 +128,7 @@
                 style="@style/basicSize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:text="@string/NumberOfPersons"
                 android:textColor="@color/basicColor" />
 
@@ -134,7 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/PersonsQuantity"
-                android:paddingRight="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
         </TableRow>
 
@@ -150,6 +154,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:text="@string/Book"
+        android:padding="@dimen/basic_padding"
         android:background="@color/basicColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

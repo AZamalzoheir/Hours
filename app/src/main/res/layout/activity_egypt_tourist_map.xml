@@ -31,6 +31,7 @@
             <TextView
                 android:id="@+id/detialds_tv"
                 style="@style/basicSize"
+                android:padding="@dimen/basic_padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/basic_padding"
@@ -50,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Price"
-                android:paddingLeft="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
 
             <TextView
@@ -59,6 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/PriceQuantity"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
 
         </TableRow>
@@ -74,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/For"
-                android:paddingLeft="@dimen/basic_padding"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
 
             <TextView
@@ -83,6 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/For"
+                android:padding="@dimen/basic_padding"
                 android:textColor="@color/basicColor" />
         </TableRow>
     </TableLayout>
@@ -97,6 +100,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:text="@string/ShowOnMap"
+        android:padding="@dimen/basic_padding"
         android:background="@color/basicColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,6 +119,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/OuoonMosa"
+        android:padding="@dimen/basic_padding"
         android:textColor="@color/basicColor"
         app:layout_constraintBottom_toTopOf="@+id/descripe_table"
         app:layout_constraintEnd_toEndOf="parent"

@@ -30,17 +30,21 @@
             android:label="@string/Register" />
         <activity android:name=".ForgetPasswordActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".HomePageActivity" />
-        <activity android:name=".ShowVideoActivity" />
-        <activity android:name=".PlayVideoActivity" />
-        <activity android:name=".LuxorDescripionActivity" />
-        <activity android:name=".BookTripsActivity" />
-        <activity android:name=".TripsSpicislNeedActivity" />
-        <activity android:name=".EgyptionTouristActivity" />
-        <activity android:name=".TherapeuticTourismActivity" />
-        <activity android:name=".EgyptTouristMapActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".MapActivity" />
+        <activity android:name=".HomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.amalzoheir.hours.HomeActivity" />
+        </activity>
+        <activity android:name=".ShowVideoActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Video"/>
+        <activity android:name=".PlayVideoActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Video"/>
+        <activity android:name=".LuxorDescripionActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Luxor"/>
+        <activity android:name=".BookTripsActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Book"/>
+        <activity android:name=".TripsSpicislNeedActivity" android:parentActivityName=".HomePageActivity" android:label="@string/TripsNeed"/>
+        <activity android:name=".EgyptionTouristActivity" android:parentActivityName=".HomePageActivity"/>
+        <activity android:name=".TherapeuticTourismActivity" android:parentActivityName=".HomePageActivity" android:label="@string/TherapeuticTourism"/>
+        <activity android:name=".EgyptTouristMapActivity" android:parentActivityName=".HomePageActivity" android:label="@string/EgyptTouristMap"/>
+        <activity android:name=".ProfileActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Profile"/>
+        <activity android:name=".MapActivity" android:parentActivityName=".HomePageActivity" android:label="@string/EgyptTouristMap"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

@@ -16,11 +16,28 @@
                             <entry key="actionbar">
                               <value>
                                 <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="-10" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-0٥.png" />
-                                      <entry key="outputName" value="ic_360_degree" />
+                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-١٤.png" />
+                                      <entry key="outputName" value="bookicon" />
+                                      <entry key="theme" value="CUSTOM" />
+                                      <entry key="themeColor" value="e5e021" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -90,6 +107,11 @@
                 </map>
               </option>
             </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState />
           </value>
         </entry>
       </map>
