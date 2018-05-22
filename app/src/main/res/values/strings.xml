@@ -36,6 +36,19 @@
     <string name="Name">Sara Ahmed</string>
     <string name="Email">SaraAhmed@gmail.com</string>
     <string name="Location">visited 3 places</string>
-    <string name="Profile">Profile</string>
+    <string name="Profile">profile</string>
+    <string name="LuxorKarnak">AlKarnak</string>
+    <string name="LuxorHatchbsoot">Hatchbsot</string>
+    <string name="LuxorFila">Filla</string>
     <string name="title_activity_maps">Map</string>
+    <string name="CompanyNaame">Company Name</string>
+    <string name="CompanyNumber">Company Number</string>
+    <string name="CompanyNaame1">Abanoub for travel</string>
+    <string name="CompanyNumber1">24182671</string>
+    <string name="CompanyNaame2">Abtkar Travel</string>
+    <string name="CompanyNumber2">232446</string>
+    <string name="CompanyNaame3">Atoan Travel</string>
+    <string name="CompanyNumber3">26362969</string>
+    <string name="CompanyNaame4">Abidos for travel</string>
+    <string name="CompanyNumber4">25740931</string>
 </resources>

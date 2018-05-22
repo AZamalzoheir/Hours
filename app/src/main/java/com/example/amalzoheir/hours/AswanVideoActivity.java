@@ -20,7 +20,7 @@ public class AswanVideoActivity extends AppCompatActivity {
         //showAswanVideoView.setVideoURI(Uri.parse(path));
         //showAswanVideoView.start();
         gyroscopeObserver=new GyroscopeObserver();
-        gyroscopeObserver.setMaxRotateRadian(Math.PI/9);
+        gyroscopeObserver.setMaxRotateRadian(2*Math.PI/10);
         PanoramaImageView panoramaImageViewLuxor=(PanoramaImageView)findViewById(R.id.aswan_panoramaimage);
         panoramaImageViewLuxor.setGyroscopeObserver(gyroscopeObserver);
 

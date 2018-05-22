@@ -1,31 +1,53 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'key1'
+            keyPassword '@#$Bata55@#$'
+            storeFile file('E:/android/Files/androidHours.jks')
+            storePassword '@#$Bata55@#$'
+        }
+    }
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.amalzoheir.hours"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs{
+        release {
+            storeFile file("E:/android/Files/androidHours.jks")
+            storePassword '@#$Bata55@#$'
+            keyAlias "key0"
+            keyPassword '@#$Bata55@#$'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+
         }
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
     testImplementation 'junit:junit:4.12'
     implementation 'com.gjiazhe:PanoramaImageView:1.0'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.google.vr:sdk-base:1.140.0'
+    implementation 'com.google.vr:sdk-controller:1.140.0'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

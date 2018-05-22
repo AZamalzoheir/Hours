@@ -34,10 +34,10 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-١٤.png" />
-                                      <entry key="outputName" value="bookicon" />
+                                      <entry key="imageAsset" value="E:\android\Files\Icons\icons-١٥.png" />
+                                      <entry key="outputName" value="homelogo" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="e5e021" />
+                                      <entry key="themeColor" value="0b0b02" />
                                     </map>
                                   </option>
                                 </PersistentState>

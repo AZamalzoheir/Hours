@@ -28,7 +28,7 @@ public class ShowVideoActivity extends AppCompatActivity {
         showVideoPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ShowVideoActivity.this, PlayVideoActivity.class));
+                startActivity(new Intent(ShowVideoActivity.this, LuxorPlaces.class));
             }
         });
         showPyramidsVideoPlay.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +46,7 @@ public class ShowVideoActivity extends AppCompatActivity {
         showAswanVideoPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ShowVideoActivity.this, AswanVideoActivity.class));
+                startActivity(new Intent(ShowVideoActivity.this,MainActivity.class));
             }
         });
 

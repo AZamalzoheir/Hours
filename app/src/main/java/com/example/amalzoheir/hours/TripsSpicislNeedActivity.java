@@ -28,25 +28,25 @@ public class TripsSpicislNeedActivity extends AppCompatActivity {
         showCityDescryptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+                startActivity(new Intent(TripsSpicislNeedActivity.this,TravelCompanies.class));
             }
         });
         showPyramidDescryptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+                startActivity(new Intent(TripsSpicislNeedActivity.this,TravelCompanies.class));
             }
         });
         showGizaDescryptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+                startActivity(new Intent(TripsSpicislNeedActivity.this,TravelCompanies.class));
             }
         });
         showAswanDescryptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(TripsSpicislNeedActivity.this,LuxorDescripionActivity.class));
+                startActivity(new Intent(TripsSpicislNeedActivity.this,TravelCompanies.class));
             }
         });
     }

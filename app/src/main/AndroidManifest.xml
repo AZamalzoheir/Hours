@@ -8,10 +8,11 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -30,21 +31,50 @@
             android:label="@string/Register" />
         <activity android:name=".ForgetPasswordActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".HomePageActivity" >
+        <activity android:name=".HomePageActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.amalzoheir.hours.HomeActivity" />
         </activity>
-        <activity android:name=".ShowVideoActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Video"/>
-        <activity android:name=".PlayVideoActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Video"/>
-        <activity android:name=".LuxorDescripionActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Luxor"/>
-        <activity android:name=".BookTripsActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Book"/>
-        <activity android:name=".TripsSpicislNeedActivity" android:parentActivityName=".HomePageActivity" android:label="@string/TripsNeed"/>
-        <activity android:name=".EgyptionTouristActivity" android:parentActivityName=".HomePageActivity"/>
-        <activity android:name=".TherapeuticTourismActivity" android:parentActivityName=".HomePageActivity" android:label="@string/TherapeuticTourism"/>
-        <activity android:name=".EgyptTouristMapActivity" android:parentActivityName=".HomePageActivity" android:label="@string/EgyptTouristMap"/>
-        <activity android:name=".ProfileActivity" android:parentActivityName=".HomePageActivity" android:label="@string/Profile"/>
-        <activity android:name=".MapActivity" android:parentActivityName=".HomePageActivity" android:label="@string/EgyptTouristMap"/>
+        <activity
+            android:name=".ShowVideoActivity"
+            android:label="@string/Video"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".PlayVideoActivity"
+            android:label="@string/Video"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".LuxorDescripionActivity"
+            android:label="@string/Luxor"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".BookTripsActivity"
+            android:label="@string/Book"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".TripsSpicislNeedActivity"
+            android:label="@string/TripsNeed"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".EgyptionTouristActivity"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".TherapeuticTourismActivity"
+            android:label="@string/TherapeuticTourism"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".EgyptTouristMapActivity"
+            android:label="@string/EgyptTouristMap"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/Profile"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/EgyptTouristMap"
+            android:parentActivityName=".HomePageActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -63,7 +93,11 @@
         <activity android:name=".PyramidsVideoActivity" />
         <activity android:name=".GizaVideoActivity" />
         <activity android:name=".AswanVideoActivity" />
-        <activity android:name=".AswanDetialsActivity"></activity>
+        <activity android:name=".AswanDetialsActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LuxorPlaces" />
+        <activity android:name=".Karnak" />
+        <activity android:name=".TravelCompanies"></activity>
     </application>
 
 </manifest>
